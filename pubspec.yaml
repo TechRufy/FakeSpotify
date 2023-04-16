@@ -45,6 +45,7 @@ dependencies:
   get_state_manager: ^3.13.0
   audio_manager: ^0.8.2
   assets_audio_player: ^3.0.6
+  cloud_firestore: ^4.5.1
 
 dev_dependencies:
   flutter_test:

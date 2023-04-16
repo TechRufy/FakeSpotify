@@ -20,15 +20,16 @@ class Login extends StatelessWidget {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
         inputDecorationTheme: InputDecorationTheme(
-            enabledBorder: _buildBorder(Colors.grey),
-            constraints: const BoxConstraints(maxWidth: 150),
-            floatingLabelBehavior: FloatingLabelBehavior.never,
-            labelStyle: const TextStyle(color: Colors.white),
-            hoverColor: Colors.grey,
-            filled: true,
-            fillColor: Colors.grey,
-            border: _buildBorder(Colors.grey),
-            focusedBorder: _buildBorder(Colors.grey)),
+          enabledBorder: _buildBorder(Colors.grey),
+          constraints: const BoxConstraints(maxWidth: 150),
+          floatingLabelBehavior: FloatingLabelBehavior.never,
+          labelStyle: const TextStyle(color: Colors.white),
+          hoverColor: Colors.grey,
+          filled: true,
+          fillColor: Colors.grey,
+          border: _buildBorder(Colors.grey),
+          focusedBorder: _buildBorder(Colors.grey),
+        ),
         textTheme: const TextTheme(
           bodyText1:
               TextStyle(color: Colors.black, fontFamily: "Century Gothic"),

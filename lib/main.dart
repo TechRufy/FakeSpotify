@@ -1,16 +1,12 @@
 import 'dart:async';
 
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Entity/album_entity.dart';
 import 'package:flutter_application_1/Pages/home_page.dart';
 import 'package:flutter_application_1/Pages/login_page.dart';
 import 'package:flutter_application_1/Entity/song_entity.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter_application_1/firebase_options.dart";
-import 'package:flutter_application_1/widgets/listaAlbum.dart';
-import 'package:flutter_application_1/widgets/listaSong.dart';
 
 import 'Pages/cerca_page.dart';
 import 'Pages/libreria_page.dart';

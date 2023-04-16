@@ -69,6 +69,7 @@ class _ListSong extends State<PrimaRoute> {
                   ),
                   CarouselSlider(
                     options: CarouselOptions(
+                      
                       height: 190.0,
                       viewportFraction: 0.35,
                       padEnds: false,
